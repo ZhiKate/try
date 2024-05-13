@@ -1,0 +1,131 @@
+.my_auction_element_summary_panel{
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* border:1px solid #b8b7b7; */
+    background-color: #dfdfdf;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.my_auction_element_summary_panel .filter_small_color_button{
+    display: flex;
+}
+
+.show_small_button{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    /* align-self:self-end; */
+    width: fit-content;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    padding: 0px,0px;
+    color: #fafafa;
+    background-color: #25772f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border: none;
+    border-radius: 1rem;
+}
+
+.show_small_button:hover{
+    background-color: #1d5f25;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.show_button .button_num{
+    /* text-align: center; */
+    width: 100%;
+    font-size:2rem;
+    height: 70%;
+    /* background-color: #e0d6d6; */
+    color: #ffffff;
+}
+.my_auction_element_summary_panel .filter_small_color_button>*{
+    margin-right: 0.5rem;
+}
+
+/* .my_auction_element_summary_panel .filter_color_button>*{
+    margin-right: 1rem;
+}
+
+.my_auction_element_summary_panel .filter_color_button{
+    display: flex;
+}
+
+.show_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: fit-content;
+    width: 6rem;
+    height: 4.5rem;
+    cursor: pointer;
+    padding: 0px,0px;
+    background-color: #25772f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border: none;
+}
+.show_button .button_num{
+    text-align: center;
+    width: 100%;
+    font-size:2rem;
+    height: 70%;
+    background-color: #e0d6d6;
+    color: #25772f;
+}
+.show_button .button_text{
+    width: fit-content;
+    height: 30%;
+    font-size: 1rem;
+    color: #fafafa;
+}
+.show_button:hover{
+    background-color: #1d5f25;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+} */
+
+.pending_bids_button{
+    background-color: #af9a20;
+}
+
+/* .pending_bids_button .button_num{
+    color: #af9a20;
+} */
+.pending_bids_button:hover{
+    background-color: #968318;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.outbids_button{
+    background-color: #b62727;
+}
+
+/* .outbids_button .button_num{
+    color: #b62727;
+} */
+.outbids_button:hover{
+    background-color: #8a1c1c;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.watched_lots_button{
+    background-color: #202ea7;
+}
+/* .watched_lots_button .button_num{
+    color:  #202ea7;
+} */
+.watched_lots_button:hover{
+    background-color: #16207a;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+/* -----------------------High bid and your max bid ----------------- */

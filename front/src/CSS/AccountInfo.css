@@ -1,0 +1,221 @@
+.my_account_element_content_body{
+    /* background-color: aqua; */
+    text-align: center;
+    /* margin:50px 0px; */
+    display:flex;
+    /* justify-content: center; */
+    align-items:center;
+    flex-direction: column;
+    min-height: 50vh;
+    /* height: 100vh; */
+    width:60%;
+    min-width: 1250px;
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.my_account_element_content_panel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.my_account_element_content_name{
+    display:flex;
+    align-content: flex-start;
+    align-items: center;
+    font-size:2rem;
+    background-color: antiquewhite;
+    /* height: 15%; */
+    width: 100%;
+}
+.my_account_auction_element_content_items_summary{
+    background-color: rgb(113, 231, 186);
+    /* height: 35%; */
+    width: 100%;
+}
+.my_auction_element_content_member_details{
+    background-color: rgb(233, 213, 158);
+    height: 50%;
+    width: 100%;
+    /* width: calc(100%-2rem); */
+    /* padding-left: 2rem; */
+}
+
+
+/* -----------------------------------button-------------------------- */
+.my_account_auction_element_content_items_summary{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border:1px solid #b8b7b7; */
+    /* background-color: #dfdfdf; */
+    align-items: center;
+    justify-content:space-around;
+}
+
+.my_account_auction_element_content_items_summary .filter_color_button>*{
+    margin-right: 1rem;
+}
+
+.my_account_auction_element_content_items_summary .filter_color_button{
+    display: flex;
+}
+
+.account_show_button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: fit-content;
+    width: 9rem;
+    height: 6rem;
+    cursor: pointer;
+    padding: 0px,0px;
+    background-color: #25772f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    border: none;
+}
+.account_show_button .button_num{
+    text-align: center;
+    width: 100%;
+    font-size:3rem;
+    height: 70%;
+    background-color: #fdfdfd;
+    color: #25772f;
+}
+.account_show_button .button_text{
+    width: fit-content;
+    height: 30%;
+    font-size: 1.5rem;
+    color: #fafafa;
+}
+.account_show_button:hover{
+    background-color: #1d5f25;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.account_pending_bids_button{
+    background-color: #af9a20;
+}
+
+.account_pending_bids_button .button_num{
+    color: #af9a20;
+}
+.account_pending_bids_button:hover{
+    background-color: #968318;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.account_outbids_button{
+    background-color: #b62727;
+}
+
+.account_outbids_button .button_num{
+    color: #b62727;
+}
+.account_outbids_button:hover{
+    background-color: #8a1c1c;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.account_credit_button{
+    background-color: #414040;
+    cursor:auto;
+}
+.account_credit_button .button_num{
+    color:  #242323;
+}
+/* .account_watched_lots_button:hover{
+    background-color: #16207a;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+} */
+.account_credit_button:hover{
+    background-color: #414040;
+    box-shadow: none;
+}
+
+/* ----------------------------------member details------------------------------- */
+
+.my_auction_element_content_member_details h1{
+    text-align: left;
+    padding-left:2rem ;
+}
+.my_auction_element_content_member_details_without_title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+.member_details_part .info1{
+    display: flex;
+    flex-direction: row;
+    /* align-content: flex-start; */
+}
+
+.member_details_part{
+    min-width:30%;
+    /* justify-content: flex-start; */
+
+}
+.member_details_part .account_info_label{
+    width: 40%;
+    /* width: calc(40%-1rem); */
+    font-weight: bold;
+    text-align:left;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+.member_details_part .account_info_input_value{
+    width: 60%;
+    text-align:left; 
+    font-size: 1.2rem;
+    word-wrap: break-word;
+}
+
+
+/* ---------------------------Profile-------------------------------- */
+.profile_edit_form {
+    text-align: left;
+}
+
+.profile_edit_form a{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.profile_edit_form a:hover{
+    color: blue;
+}
+
+.profile_edit_form .submit_button{
+    width:100%;
+}
+
+
+
+/* -------------------------------ManageSearchAndEmail---------------------------- */
+.ManageSearchAndEmail_main_body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ManageSearchAndEmail_main_body .email_subscription{
+    min-width: 35rem;
+    text-align: left;
+}
+.ManageSearchAndEmail_main_body .subcription_details{
+    min-width: 30rem;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+/* --------------------------------- Payment methods page------------------------------- */
+.payement_methods_content{
+    width:100%;
+}
